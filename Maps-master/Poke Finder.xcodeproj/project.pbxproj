@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5205601C1D45122D005A2C53 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5205601B1D45122D005A2C53 /* user.png */; };
+		521658971D3448AC006CB77F /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521658961D3448AC006CB77F /* GoogleMobileAds.framework */; };
+		5229BDD31D3445A8005D076D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDD21D3445A8005D076D /* SystemConfiguration.framework */; };
+		5229BDD51D3445AD005D076D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDD41D3445AD005D076D /* StoreKit.framework */; };
+		5229BDD71D3445B5005D076D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDD61D3445B5005D076D /* MessageUI.framework */; };
+		5229BDD91D3445BB005D076D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDD81D3445BB005D076D /* EventKit.framework */; };
+		5229BDDB1D3445CE005D076D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDDA1D3445CE005D076D /* CoreTelephony.framework */; };
+		5229BDDD1D3445D3005D076D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDDC1D3445D3005D076D /* CoreGraphics.framework */; };
+		5229BDDF1D3445D8005D076D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDDE1D3445D8005D076D /* AVFoundation.framework */; };
+		5229BDE11D3445DD005D076D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDE01D3445DD005D076D /* AudioToolbox.framework */; };
+		5229BDE31D3445E4005D076D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229BDE21D3445E4005D076D /* AdSupport.framework */; };
+		5231550F1D4141FF00E77869 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5231550E1D4141FF00E77869 /* icon.png */; };
+		52555FFA1D36A28C00DE6E61 /* AddPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52555FF91D36A28C00DE6E61 /* AddPokemon.swift */; };
+		525560851D36B5CF00DE6E61 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525560841D36B5CF00DE6E61 /* Utils.swift */; };
+		525560871D36B5DF00DE6E61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525560861D36B5DF00DE6E61 /* Images.xcassets */; };
+		525560891D36B6A600DE6E61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525560881D36B6A600DE6E61 /* Constants.swift */; };
+		528A68A51D37FB7000F265CE /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 528A68A41D37FB7000F265CE /* cross.png */; };
+		528A68A91D37FFD900F265CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528A68A81D37FFD900F265CE /* LaunchScreen.xib */; };
+		528A68AD1D380D3F00F265CE /* profile_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528A68AC1D380D3F00F265CE /* profile_bg.jpg */; };
+		528A68AF1D380DA900F265CE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A68AE1D380DA900F265CE /* Profile.swift */; };
+		52B6FB031D36D72500E8EEBD /* 001-Bulbasaur-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA6B1D36D72400E8EEBD /* 001-Bulbasaur-icon.png */; };
+		52B6FB041D36D72500E8EEBD /* 002-Ivysaur-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA6C1D36D72400E8EEBD /* 002-Ivysaur-icon.png */; };
+		52B6FB051D36D72500E8EEBD /* 003-Venusaur-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA6D1D36D72400E8EEBD /* 003-Venusaur-icon.png */; };
+		52B6FB061D36D72500E8EEBD /* 004-Charmander-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA6E1D36D72400E8EEBD /* 004-Charmander-icon.png */; };
+		52B6FB071D36D72500E8EEBD /* 005-Charmeleon-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA6F1D36D72400E8EEBD /* 005-Charmeleon-icon.png */; };
+		52B6FB081D36D72500E8EEBD /* 006-Charizard-icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA701D36D72400E8EEBD /* 006-Charizard-icon (1).png */; };
+		52B6FB091D36D72500E8EEBD /* 006-Charizard-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA711D36D72400E8EEBD /* 006-Charizard-icon.png */; };
+		52B6FB0A1D36D72500E8EEBD /* 007-Squirtle-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA721D36D72400E8EEBD /* 007-Squirtle-icon.png */; };
+		52B6FB0B1D36D72500E8EEBD /* 008-Wartortle-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA731D36D72400E8EEBD /* 008-Wartortle-icon.png */; };
+		52B6FB0C1D36D72500E8EEBD /* 009-Blastoise-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA741D36D72400E8EEBD /* 009-Blastoise-icon.png */; };
+		52B6FB0D1D36D72500E8EEBD /* 010-Caterpie-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA751D36D72400E8EEBD /* 010-Caterpie-icon.png */; };
+		52B6FB0E1D36D72500E8EEBD /* 011-Metapod-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA761D36D72400E8EEBD /* 011-Metapod-icon.png */; };
+		52B6FB0F1D36D72500E8EEBD /* 012-Butterfree-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA771D36D72400E8EEBD /* 012-Butterfree-icon.png */; };
+		52B6FB101D36D72500E8EEBD /* 013-Weedle-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA781D36D72400E8EEBD /* 013-Weedle-icon.png */; };
+		52B6FB111D36D72500E8EEBD /* 014-Kakuna-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA791D36D72400E8EEBD /* 014-Kakuna-icon.png */; };
+		52B6FB121D36D72500E8EEBD /* 015-Beedrill-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA7A1D36D72400E8EEBD /* 015-Beedrill-icon.png */; };
+		52B6FB131D36D72500E8EEBD /* 016-Pidgey-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA7B1D36D72400E8EEBD /* 016-Pidgey-icon.png */; };
+		52B6FB141D36D72500E8EEBD /* 017-Pidgeotto-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA7C1D36D72400E8EEBD /* 017-Pidgeotto-icon.png */; };
+		52B6FB151D36D72500E8EEBD /* 018-Pidgeot-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA7D1D36D72400E8EEBD /* 018-Pidgeot-icon.png */; };
+		52B6FB161D36D72500E8EEBD /* 019-Rattata-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA7E1D36D72400E8EEBD /* 019-Rattata-icon.png */; };
+		52B6FB171D36D72500E8EEBD /* 020-Raticate-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA7F1D36D72400E8EEBD /* 020-Raticate-icon.png */; };
+		52B6FB181D36D72500E8EEBD /* 021-Spearow-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA801D36D72400E8EEBD /* 021-Spearow-icon.png */; };
+		52B6FB191D36D72500E8EEBD /* 022-Fearow-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA811D36D72400E8EEBD /* 022-Fearow-icon.png */; };
+		52B6FB1A1D36D72500E8EEBD /* 023-Ekans-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA821D36D72400E8EEBD /* 023-Ekans-icon.png */; };
+		52B6FB1B1D36D72500E8EEBD /* 024-Arbok-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA831D36D72400E8EEBD /* 024-Arbok-icon.png */; };
+		52B6FB1C1D36D72500E8EEBD /* 025-Pikachu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA841D36D72400E8EEBD /* 025-Pikachu-icon.png */; };
+		52B6FB1D1D36D72500E8EEBD /* 026-Raichu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA851D36D72400E8EEBD /* 026-Raichu-icon.png */; };
+		52B6FB1E1D36D72500E8EEBD /* 027-Sandshrew-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA861D36D72400E8EEBD /* 027-Sandshrew-icon.png */; };
+		52B6FB1F1D36D72500E8EEBD /* 028-Sandslash-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA871D36D72400E8EEBD /* 028-Sandslash-icon.png */; };
+		52B6FB201D36D72500E8EEBD /* 029-Nidoran-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA881D36D72400E8EEBD /* 029-Nidoran-icon.png */; };
+		52B6FB211D36D72500E8EEBD /* 030-Nidorina-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA891D36D72400E8EEBD /* 030-Nidorina-icon.png */; };
+		52B6FB221D36D72500E8EEBD /* 031-Nidoqueen-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA8A1D36D72400E8EEBD /* 031-Nidoqueen-icon.png */; };
+		52B6FB231D36D72500E8EEBD /* 032-Nidorano-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA8B1D36D72400E8EEBD /* 032-Nidorano-icon.png */; };
+		52B6FB241D36D72500E8EEBD /* 033-Nidorino-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA8C1D36D72400E8EEBD /* 033-Nidorino-icon.png */; };
+		52B6FB251D36D72500E8EEBD /* 034-Nidoking-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA8D1D36D72400E8EEBD /* 034-Nidoking-icon.png */; };
+		52B6FB261D36D72500E8EEBD /* 035-Clefairy-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA8E1D36D72400E8EEBD /* 035-Clefairy-icon.png */; };
+		52B6FB271D36D72500E8EEBD /* 036-Clefable-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA8F1D36D72400E8EEBD /* 036-Clefable-icon.png */; };
+		52B6FB281D36D72500E8EEBD /* 037-Vulpix-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA901D36D72400E8EEBD /* 037-Vulpix-icon.png */; };
+		52B6FB291D36D72500E8EEBD /* 038-Ninetales-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA911D36D72400E8EEBD /* 038-Ninetales-icon.png */; };
+		52B6FB2A1D36D72500E8EEBD /* 039-Jigglypuff-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA921D36D72400E8EEBD /* 039-Jigglypuff-icon.png */; };
+		52B6FB2B1D36D72500E8EEBD /* 040-Wigglytuff-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA931D36D72400E8EEBD /* 040-Wigglytuff-icon.png */; };
+		52B6FB2C1D36D72500E8EEBD /* 041-Zubat-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA941D36D72400E8EEBD /* 041-Zubat-icon.png */; };
+		52B6FB2D1D36D72500E8EEBD /* 042-Golbat-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA951D36D72400E8EEBD /* 042-Golbat-icon.png */; };
+		52B6FB2E1D36D72500E8EEBD /* 043-Oddish-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA961D36D72400E8EEBD /* 043-Oddish-icon.png */; };
+		52B6FB2F1D36D72500E8EEBD /* 044-Gloom-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA971D36D72400E8EEBD /* 044-Gloom-icon.png */; };
+		52B6FB301D36D72500E8EEBD /* 045-Vileplume-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA981D36D72400E8EEBD /* 045-Vileplume-icon.png */; };
+		52B6FB311D36D72500E8EEBD /* 046-Paras-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA991D36D72400E8EEBD /* 046-Paras-icon.png */; };
+		52B6FB321D36D72500E8EEBD /* 047-Parasect-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA9A1D36D72400E8EEBD /* 047-Parasect-icon.png */; };
+		52B6FB331D36D72500E8EEBD /* 048-Venonat-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA9B1D36D72400E8EEBD /* 048-Venonat-icon.png */; };
+		52B6FB341D36D72500E8EEBD /* 049-Venomoth-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA9C1D36D72400E8EEBD /* 049-Venomoth-icon.png */; };
+		52B6FB351D36D72500E8EEBD /* 050-Diglett-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA9D1D36D72400E8EEBD /* 050-Diglett-icon.png */; };
+		52B6FB361D36D72500E8EEBD /* 051-Dugtrio-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA9E1D36D72400E8EEBD /* 051-Dugtrio-icon.png */; };
+		52B6FB371D36D72500E8EEBD /* 052-Meowth-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FA9F1D36D72400E8EEBD /* 052-Meowth-icon.png */; };
+		52B6FB381D36D72500E8EEBD /* 053-Persian-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA01D36D72400E8EEBD /* 053-Persian-icon.png */; };
+		52B6FB391D36D72500E8EEBD /* 054-Psyduck-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA11D36D72400E8EEBD /* 054-Psyduck-icon.png */; };
+		52B6FB3A1D36D72500E8EEBD /* 055-Golduck-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA21D36D72400E8EEBD /* 055-Golduck-icon.png */; };
+		52B6FB3B1D36D72500E8EEBD /* 056-Mankey-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA31D36D72400E8EEBD /* 056-Mankey-icon.png */; };
+		52B6FB3C1D36D72500E8EEBD /* 057-Primeape-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA41D36D72400E8EEBD /* 057-Primeape-icon.png */; };
+		52B6FB3D1D36D72500E8EEBD /* 058-Growlithe-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA51D36D72400E8EEBD /* 058-Growlithe-icon.png */; };
+		52B6FB3E1D36D72500E8EEBD /* 059-Arcanine-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA61D36D72400E8EEBD /* 059-Arcanine-icon.png */; };
+		52B6FB3F1D36D72500E8EEBD /* 060-Poliwag-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA71D36D72400E8EEBD /* 060-Poliwag-icon.png */; };
+		52B6FB401D36D72500E8EEBD /* 061-Poliwhirl-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA81D36D72400E8EEBD /* 061-Poliwhirl-icon.png */; };
+		52B6FB411D36D72500E8EEBD /* 062-Poliwrath-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAA91D36D72400E8EEBD /* 062-Poliwrath-icon.png */; };
+		52B6FB421D36D72500E8EEBD /* 063-Abra-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAAA1D36D72400E8EEBD /* 063-Abra-icon.png */; };
+		52B6FB431D36D72500E8EEBD /* 064-Kadabra-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAAB1D36D72400E8EEBD /* 064-Kadabra-icon.png */; };
+		52B6FB441D36D72500E8EEBD /* 065-Alakazam-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAAC1D36D72500E8EEBD /* 065-Alakazam-icon.png */; };
+		52B6FB451D36D72500E8EEBD /* 066-Machop-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAAD1D36D72500E8EEBD /* 066-Machop-icon.png */; };
+		52B6FB461D36D72500E8EEBD /* 067-Machoke-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAAE1D36D72500E8EEBD /* 067-Machoke-icon.png */; };
+		52B6FB471D36D72500E8EEBD /* 068-Machamp-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAAF1D36D72500E8EEBD /* 068-Machamp-icon.png */; };
+		52B6FB481D36D72500E8EEBD /* 069-Bellsprout-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB01D36D72500E8EEBD /* 069-Bellsprout-icon.png */; };
+		52B6FB491D36D72500E8EEBD /* 070-Weepinbell-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB11D36D72500E8EEBD /* 070-Weepinbell-icon.png */; };
+		52B6FB4A1D36D72500E8EEBD /* 071-Victreebel-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB21D36D72500E8EEBD /* 071-Victreebel-icon.png */; };
+		52B6FB4B1D36D72500E8EEBD /* 072-Tentacool-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB31D36D72500E8EEBD /* 072-Tentacool-icon.png */; };
+		52B6FB4C1D36D72500E8EEBD /* 073-Tentacruel-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB41D36D72500E8EEBD /* 073-Tentacruel-icon.png */; };
+		52B6FB4D1D36D72500E8EEBD /* 074-Geodude-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB51D36D72500E8EEBD /* 074-Geodude-icon.png */; };
+		52B6FB4E1D36D72500E8EEBD /* 075-Graveler-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB61D36D72500E8EEBD /* 075-Graveler-icon.png */; };
+		52B6FB4F1D36D72500E8EEBD /* 076-Golem-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB71D36D72500E8EEBD /* 076-Golem-icon.png */; };
+		52B6FB501D36D72500E8EEBD /* 077-Ponyta-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB81D36D72500E8EEBD /* 077-Ponyta-icon.png */; };
+		52B6FB511D36D72500E8EEBD /* 078-Rapidash-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAB91D36D72500E8EEBD /* 078-Rapidash-icon.png */; };
+		52B6FB521D36D72500E8EEBD /* 079-Slowpoke-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FABA1D36D72500E8EEBD /* 079-Slowpoke-icon.png */; };
+		52B6FB531D36D72500E8EEBD /* 080-Slowbro-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FABB1D36D72500E8EEBD /* 080-Slowbro-icon.png */; };
+		52B6FB541D36D72500E8EEBD /* 081-Magnemite-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FABC1D36D72500E8EEBD /* 081-Magnemite-icon.png */; };
+		52B6FB551D36D72500E8EEBD /* 082-Magneton-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FABD1D36D72500E8EEBD /* 082-Magneton-icon.png */; };
+		52B6FB561D36D72500E8EEBD /* 083-Farfetchd-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FABE1D36D72500E8EEBD /* 083-Farfetchd-icon.png */; };
+		52B6FB571D36D72500E8EEBD /* 084-Doduo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FABF1D36D72500E8EEBD /* 084-Doduo-icon.png */; };
+		52B6FB581D36D72500E8EEBD /* 085-Dodrio-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC01D36D72500E8EEBD /* 085-Dodrio-icon.png */; };
+		52B6FB591D36D72500E8EEBD /* 086-Seel-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC11D36D72500E8EEBD /* 086-Seel-icon.png */; };
+		52B6FB5A1D36D72500E8EEBD /* 087-Dewgong-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC21D36D72500E8EEBD /* 087-Dewgong-icon.png */; };
+		52B6FB5B1D36D72500E8EEBD /* 088-Grimer-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC31D36D72500E8EEBD /* 088-Grimer-icon.png */; };
+		52B6FB5C1D36D72500E8EEBD /* 089-Muk-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC41D36D72500E8EEBD /* 089-Muk-icon.png */; };
+		52B6FB5D1D36D72500E8EEBD /* 090-Shellder-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC51D36D72500E8EEBD /* 090-Shellder-icon.png */; };
+		52B6FB5E1D36D72500E8EEBD /* 091-Cloyster-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC61D36D72500E8EEBD /* 091-Cloyster-icon.png */; };
+		52B6FB5F1D36D72500E8EEBD /* 092-Gastly-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC71D36D72500E8EEBD /* 092-Gastly-icon.png */; };
+		52B6FB601D36D72500E8EEBD /* 093-Haunter-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC81D36D72500E8EEBD /* 093-Haunter-icon.png */; };
+		52B6FB611D36D72500E8EEBD /* 094-Gengar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAC91D36D72500E8EEBD /* 094-Gengar-icon.png */; };
+		52B6FB621D36D72500E8EEBD /* 095-Onix-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FACA1D36D72500E8EEBD /* 095-Onix-icon.png */; };
+		52B6FB631D36D72500E8EEBD /* 096-Drowzee-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FACB1D36D72500E8EEBD /* 096-Drowzee-icon.png */; };
+		52B6FB641D36D72500E8EEBD /* 097-Hypno-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FACC1D36D72500E8EEBD /* 097-Hypno-icon.png */; };
+		52B6FB651D36D72500E8EEBD /* 098-Krabby-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FACD1D36D72500E8EEBD /* 098-Krabby-icon.png */; };
+		52B6FB661D36D72500E8EEBD /* 099-Kingler-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FACE1D36D72500E8EEBD /* 099-Kingler-icon.png */; };
+		52B6FB671D36D72500E8EEBD /* 100-Voltorb-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FACF1D36D72500E8EEBD /* 100-Voltorb-icon.png */; };
+		52B6FB681D36D72500E8EEBD /* 101-Electrode-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD01D36D72500E8EEBD /* 101-Electrode-icon.png */; };
+		52B6FB691D36D72500E8EEBD /* 102-Exeggcute-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD11D36D72500E8EEBD /* 102-Exeggcute-icon.png */; };
+		52B6FB6A1D36D72500E8EEBD /* 103-Exeggutor-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD21D36D72500E8EEBD /* 103-Exeggutor-icon.png */; };
+		52B6FB6B1D36D72500E8EEBD /* 104-Cubone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD31D36D72500E8EEBD /* 104-Cubone-icon.png */; };
+		52B6FB6C1D36D72500E8EEBD /* 105-Marowak-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD41D36D72500E8EEBD /* 105-Marowak-icon.png */; };
+		52B6FB6D1D36D72500E8EEBD /* 106-Hitmonlee-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD51D36D72500E8EEBD /* 106-Hitmonlee-icon.png */; };
+		52B6FB6E1D36D72500E8EEBD /* 107-Hitmonchan-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD61D36D72500E8EEBD /* 107-Hitmonchan-icon.png */; };
+		52B6FB6F1D36D72500E8EEBD /* 108-Lickitung-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD71D36D72500E8EEBD /* 108-Lickitung-icon.png */; };
+		52B6FB701D36D72500E8EEBD /* 109-Koffing-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD81D36D72500E8EEBD /* 109-Koffing-icon.png */; };
+		52B6FB711D36D72500E8EEBD /* 110-Weezing-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAD91D36D72500E8EEBD /* 110-Weezing-icon.png */; };
+		52B6FB721D36D72500E8EEBD /* 111-Rhyhorn-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FADA1D36D72500E8EEBD /* 111-Rhyhorn-icon.png */; };
+		52B6FB731D36D72500E8EEBD /* 112-Rhydon-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FADB1D36D72500E8EEBD /* 112-Rhydon-icon.png */; };
+		52B6FB741D36D72500E8EEBD /* 113-Chansey-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FADC1D36D72500E8EEBD /* 113-Chansey-icon.png */; };
+		52B6FB751D36D72500E8EEBD /* 114-Tangela-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FADD1D36D72500E8EEBD /* 114-Tangela-icon.png */; };
+		52B6FB761D36D72500E8EEBD /* 115-Kangaskhan-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FADE1D36D72500E8EEBD /* 115-Kangaskhan-icon.png */; };
+		52B6FB771D36D72500E8EEBD /* 116-Horsea-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FADF1D36D72500E8EEBD /* 116-Horsea-icon.png */; };
+		52B6FB781D36D72500E8EEBD /* 117-Seadra-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE01D36D72500E8EEBD /* 117-Seadra-icon.png */; };
+		52B6FB791D36D72500E8EEBD /* 118-Goldeen-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE11D36D72500E8EEBD /* 118-Goldeen-icon.png */; };
+		52B6FB7A1D36D72500E8EEBD /* 119-Seaking-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE21D36D72500E8EEBD /* 119-Seaking-icon.png */; };
+		52B6FB7B1D36D72500E8EEBD /* 120-Staryu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE31D36D72500E8EEBD /* 120-Staryu-icon.png */; };
+		52B6FB7C1D36D72500E8EEBD /* 121-Starmie-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE41D36D72500E8EEBD /* 121-Starmie-icon.png */; };
+		52B6FB7D1D36D72500E8EEBD /* 122-Mr-Mime-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE51D36D72500E8EEBD /* 122-Mr-Mime-icon.png */; };
+		52B6FB7E1D36D72500E8EEBD /* 123-Scyther-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE61D36D72500E8EEBD /* 123-Scyther-icon.png */; };
+		52B6FB7F1D36D72500E8EEBD /* 124-Jynx-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE71D36D72500E8EEBD /* 124-Jynx-icon.png */; };
+		52B6FB801D36D72500E8EEBD /* 125-Electabuzz-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE81D36D72500E8EEBD /* 125-Electabuzz-icon.png */; };
+		52B6FB811D36D72500E8EEBD /* 126-Magmar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAE91D36D72500E8EEBD /* 126-Magmar-icon.png */; };
+		52B6FB821D36D72500E8EEBD /* 127-Pinsir-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAEA1D36D72500E8EEBD /* 127-Pinsir-icon.png */; };
+		52B6FB831D36D72500E8EEBD /* 128-Tauros-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAEB1D36D72500E8EEBD /* 128-Tauros-icon.png */; };
+		52B6FB841D36D72500E8EEBD /* 129-Magikarp-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAEC1D36D72500E8EEBD /* 129-Magikarp-icon.png */; };
+		52B6FB851D36D72500E8EEBD /* 130-Gyarados-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAED1D36D72500E8EEBD /* 130-Gyarados-icon.png */; };
+		52B6FB861D36D72500E8EEBD /* 131-Lapras-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAEE1D36D72500E8EEBD /* 131-Lapras-icon.png */; };
+		52B6FB871D36D72500E8EEBD /* 132-Ditto-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAEF1D36D72500E8EEBD /* 132-Ditto-icon.png */; };
+		52B6FB881D36D72500E8EEBD /* 133-Eevee-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF01D36D72500E8EEBD /* 133-Eevee-icon.png */; };
+		52B6FB891D36D72500E8EEBD /* 134-Vaporeon-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF11D36D72500E8EEBD /* 134-Vaporeon-icon.png */; };
+		52B6FB8A1D36D72500E8EEBD /* 135-Jolteon-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF21D36D72500E8EEBD /* 135-Jolteon-icon.png */; };
+		52B6FB8B1D36D72500E8EEBD /* 136-Flareon-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF31D36D72500E8EEBD /* 136-Flareon-icon.png */; };
+		52B6FB8C1D36D72500E8EEBD /* 137-Porygon-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF41D36D72500E8EEBD /* 137-Porygon-icon.png */; };
+		52B6FB8D1D36D72500E8EEBD /* 138-Omanyte-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF51D36D72500E8EEBD /* 138-Omanyte-icon.png */; };
+		52B6FB8E1D36D72500E8EEBD /* 139-Omastar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF61D36D72500E8EEBD /* 139-Omastar-icon.png */; };
+		52B6FB8F1D36D72500E8EEBD /* 140-Kabuto-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF71D36D72500E8EEBD /* 140-Kabuto-icon.png */; };
+		52B6FB901D36D72500E8EEBD /* 141-Kabutops-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF81D36D72500E8EEBD /* 141-Kabutops-icon.png */; };
+		52B6FB911D36D72500E8EEBD /* 142-Aerodactyl-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAF91D36D72500E8EEBD /* 142-Aerodactyl-icon.png */; };
+		52B6FB921D36D72500E8EEBD /* 143-Snorlax-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAFA1D36D72500E8EEBD /* 143-Snorlax-icon.png */; };
+		52B6FB931D36D72500E8EEBD /* 144-Articuno-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAFB1D36D72500E8EEBD /* 144-Articuno-icon.png */; };
+		52B6FB941D36D72500E8EEBD /* 145-Zapdos-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAFC1D36D72500E8EEBD /* 145-Zapdos-icon.png */; };
+		52B6FB951D36D72500E8EEBD /* 146-Moltres-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAFD1D36D72500E8EEBD /* 146-Moltres-icon.png */; };
+		52B6FB961D36D72500E8EEBD /* 147-Dratini-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAFE1D36D72500E8EEBD /* 147-Dratini-icon.png */; };
+		52B6FB971D36D72500E8EEBD /* 148-Dragonair-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FAFF1D36D72500E8EEBD /* 148-Dragonair-icon.png */; };
+		52B6FB981D36D72500E8EEBD /* 149-Dragonite-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FB001D36D72500E8EEBD /* 149-Dragonite-icon.png */; };
+		52B6FB991D36D72500E8EEBD /* 150-Mewtwo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FB011D36D72500E8EEBD /* 150-Mewtwo-icon.png */; };
+		52B6FB9A1D36D72500E8EEBD /* 151-Mew-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6FB021D36D72500E8EEBD /* 151-Mew-icon.png */; };
+		52D916821D3571BB00FA3C70 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D916811D3571BB00FA3C70 /* Login.swift */; };
+		52D916841D3571C900FA3C70 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D916831D3571C900FA3C70 /* Map.swift */; };
+		52D9168A1D35722600FA3C70 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D916861D35722600FA3C70 /* info.png */; };
+		52D9168B1D35722600FA3C70 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D916871D35722600FA3C70 /* location.png */; };
+		52D9168C1D35722600FA3C70 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D916881D35722600FA3C70 /* refresh.png */; };
+		52D916921D35769100FA3C70 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D916911D35769100FA3C70 /* Register.swift */; };
+		8FB94AF21BB6FB8400E2D396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB94AF11BB6FB8400E2D396 /* AppDelegate.swift */; };
+		8FB94AF71BB6FB8400E2D396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB94AF51BB6FB8400E2D396 /* Main.storyboard */; };
+		8FB94B041BB7030500E2D396 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB94B031BB7030500E2D396 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5205601B1D45122D005A2C53 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		521658961D3448AC006CB77F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		5229BDD21D3445A8005D076D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5229BDD41D3445AD005D076D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5229BDD61D3445B5005D076D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5229BDD81D3445BB005D076D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		5229BDDA1D3445CE005D076D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5229BDDC1D3445D3005D076D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5229BDDE1D3445D8005D076D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5229BDE01D3445DD005D076D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5229BDE21D3445E4005D076D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5231550E1D4141FF00E77869 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		52555FF41D358FB200DE6E61 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "SupportingFiles/Bridging-Header.h"; sourceTree = "<group>"; };
+		52555FF91D36A28C00DE6E61 /* AddPokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPokemon.swift; path = Views/AddPokemon.swift; sourceTree = "<group>"; };
+		525560841D36B5CF00DE6E61 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		525560861D36B5DF00DE6E61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SupportingFiles/Images/Images.xcassets; sourceTree = "<group>"; };
+		525560881D36B6A600DE6E61 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		528A68A41D37FB7000F265CE /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = SupportingFiles/Images/cross.png; sourceTree = "<group>"; };
+		528A68A81D37FFD900F265CE /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = SupportingFiles/LaunchScreen.xib; sourceTree = "<group>"; };
+		528A68AC1D380D3F00F265CE /* profile_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_bg.jpg; sourceTree = "<group>"; };
+		528A68AE1D380DA900F265CE /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Views/Profile.swift; sourceTree = "<group>"; };
+		52B6FA6B1D36D72400E8EEBD /* 001-Bulbasaur-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "001-Bulbasaur-icon.png"; path = "SupportingFiles/Images/Pokemon/001-Bulbasaur-icon.png"; sourceTree = "<group>"; };
+		52B6FA6C1D36D72400E8EEBD /* 002-Ivysaur-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "002-Ivysaur-icon.png"; path = "SupportingFiles/Images/Pokemon/002-Ivysaur-icon.png"; sourceTree = "<group>"; };
+		52B6FA6D1D36D72400E8EEBD /* 003-Venusaur-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "003-Venusaur-icon.png"; path = "SupportingFiles/Images/Pokemon/003-Venusaur-icon.png"; sourceTree = "<group>"; };
+		52B6FA6E1D36D72400E8EEBD /* 004-Charmander-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "004-Charmander-icon.png"; path = "SupportingFiles/Images/Pokemon/004-Charmander-icon.png"; sourceTree = "<group>"; };
+		52B6FA6F1D36D72400E8EEBD /* 005-Charmeleon-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "005-Charmeleon-icon.png"; path = "SupportingFiles/Images/Pokemon/005-Charmeleon-icon.png"; sourceTree = "<group>"; };
+		52B6FA701D36D72400E8EEBD /* 006-Charizard-icon (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "006-Charizard-icon (1).png"; path = "SupportingFiles/Images/Pokemon/006-Charizard-icon (1).png"; sourceTree = "<group>"; };
+		52B6FA711D36D72400E8EEBD /* 006-Charizard-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "006-Charizard-icon.png"; path = "SupportingFiles/Images/Pokemon/006-Charizard-icon.png"; sourceTree = "<group>"; };
+		52B6FA721D36D72400E8EEBD /* 007-Squirtle-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "007-Squirtle-icon.png"; path = "SupportingFiles/Images/Pokemon/007-Squirtle-icon.png"; sourceTree = "<group>"; };
+		52B6FA731D36D72400E8EEBD /* 008-Wartortle-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "008-Wartortle-icon.png"; path = "SupportingFiles/Images/Pokemon/008-Wartortle-icon.png"; sourceTree = "<group>"; };
+		52B6FA741D36D72400E8EEBD /* 009-Blastoise-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "009-Blastoise-icon.png"; path = "SupportingFiles/Images/Pokemon/009-Blastoise-icon.png"; sourceTree = "<group>"; };
+		52B6FA751D36D72400E8EEBD /* 010-Caterpie-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "010-Caterpie-icon.png"; path = "SupportingFiles/Images/Pokemon/010-Caterpie-icon.png"; sourceTree = "<group>"; };
+		52B6FA761D36D72400E8EEBD /* 011-Metapod-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "011-Metapod-icon.png"; path = "SupportingFiles/Images/Pokemon/011-Metapod-icon.png"; sourceTree = "<group>"; };
+		52B6FA771D36D72400E8EEBD /* 012-Butterfree-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "012-Butterfree-icon.png"; path = "SupportingFiles/Images/Pokemon/012-Butterfree-icon.png"; sourceTree = "<group>"; };
+		52B6FA781D36D72400E8EEBD /* 013-Weedle-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "013-Weedle-icon.png"; path = "SupportingFiles/Images/Pokemon/013-Weedle-icon.png"; sourceTree = "<group>"; };
+		52B6FA791D36D72400E8EEBD /* 014-Kakuna-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "014-Kakuna-icon.png"; path = "SupportingFiles/Images/Pokemon/014-Kakuna-icon.png"; sourceTree = "<group>"; };
+		52B6FA7A1D36D72400E8EEBD /* 015-Beedrill-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "015-Beedrill-icon.png"; path = "SupportingFiles/Images/Pokemon/015-Beedrill-icon.png"; sourceTree = "<group>"; };
+		52B6FA7B1D36D72400E8EEBD /* 016-Pidgey-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "016-Pidgey-icon.png"; path = "SupportingFiles/Images/Pokemon/016-Pidgey-icon.png"; sourceTree = "<group>"; };
+		52B6FA7C1D36D72400E8EEBD /* 017-Pidgeotto-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "017-Pidgeotto-icon.png"; path = "SupportingFiles/Images/Pokemon/017-Pidgeotto-icon.png"; sourceTree = "<group>"; };
+		52B6FA7D1D36D72400E8EEBD /* 018-Pidgeot-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "018-Pidgeot-icon.png"; path = "SupportingFiles/Images/Pokemon/018-Pidgeot-icon.png"; sourceTree = "<group>"; };
+		52B6FA7E1D36D72400E8EEBD /* 019-Rattata-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "019-Rattata-icon.png"; path = "SupportingFiles/Images/Pokemon/019-Rattata-icon.png"; sourceTree = "<group>"; };
+		52B6FA7F1D36D72400E8EEBD /* 020-Raticate-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "020-Raticate-icon.png"; path = "SupportingFiles/Images/Pokemon/020-Raticate-icon.png"; sourceTree = "<group>"; };
+		52B6FA801D36D72400E8EEBD /* 021-Spearow-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "021-Spearow-icon.png"; path = "SupportingFiles/Images/Pokemon/021-Spearow-icon.png"; sourceTree = "<group>"; };
+		52B6FA811D36D72400E8EEBD /* 022-Fearow-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "022-Fearow-icon.png"; path = "SupportingFiles/Images/Pokemon/022-Fearow-icon.png"; sourceTree = "<group>"; };
+		52B6FA821D36D72400E8EEBD /* 023-Ekans-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "023-Ekans-icon.png"; path = "SupportingFiles/Images/Pokemon/023-Ekans-icon.png"; sourceTree = "<group>"; };
+		52B6FA831D36D72400E8EEBD /* 024-Arbok-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "024-Arbok-icon.png"; path = "SupportingFiles/Images/Pokemon/024-Arbok-icon.png"; sourceTree = "<group>"; };
+		52B6FA841D36D72400E8EEBD /* 025-Pikachu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "025-Pikachu-icon.png"; path = "SupportingFiles/Images/Pokemon/025-Pikachu-icon.png"; sourceTree = "<group>"; };
+		52B6FA851D36D72400E8EEBD /* 026-Raichu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "026-Raichu-icon.png"; path = "SupportingFiles/Images/Pokemon/026-Raichu-icon.png"; sourceTree = "<group>"; };
+		52B6FA861D36D72400E8EEBD /* 027-Sandshrew-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "027-Sandshrew-icon.png"; path = "SupportingFiles/Images/Pokemon/027-Sandshrew-icon.png"; sourceTree = "<group>"; };
+		52B6FA871D36D72400E8EEBD /* 028-Sandslash-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "028-Sandslash-icon.png"; path = "SupportingFiles/Images/Pokemon/028-Sandslash-icon.png"; sourceTree = "<group>"; };
+		52B6FA881D36D72400E8EEBD /* 029-Nidoran-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "029-Nidoran-icon.png"; path = "SupportingFiles/Images/Pokemon/029-Nidoran-icon.png"; sourceTree = "<group>"; };
+		52B6FA891D36D72400E8EEBD /* 030-Nidorina-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "030-Nidorina-icon.png"; path = "SupportingFiles/Images/Pokemon/030-Nidorina-icon.png"; sourceTree = "<group>"; };
+		52B6FA8A1D36D72400E8EEBD /* 031-Nidoqueen-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "031-Nidoqueen-icon.png"; path = "SupportingFiles/Images/Pokemon/031-Nidoqueen-icon.png"; sourceTree = "<group>"; };
+		52B6FA8B1D36D72400E8EEBD /* 032-Nidorano-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "032-Nidorano-icon.png"; path = "SupportingFiles/Images/Pokemon/032-Nidorano-icon.png"; sourceTree = "<group>"; };
+		52B6FA8C1D36D72400E8EEBD /* 033-Nidorino-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "033-Nidorino-icon.png"; path = "SupportingFiles/Images/Pokemon/033-Nidorino-icon.png"; sourceTree = "<group>"; };
+		52B6FA8D1D36D72400E8EEBD /* 034-Nidoking-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "034-Nidoking-icon.png"; path = "SupportingFiles/Images/Pokemon/034-Nidoking-icon.png"; sourceTree = "<group>"; };
+		52B6FA8E1D36D72400E8EEBD /* 035-Clefairy-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "035-Clefairy-icon.png"; path = "SupportingFiles/Images/Pokemon/035-Clefairy-icon.png"; sourceTree = "<group>"; };
+		52B6FA8F1D36D72400E8EEBD /* 036-Clefable-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "036-Clefable-icon.png"; path = "SupportingFiles/Images/Pokemon/036-Clefable-icon.png"; sourceTree = "<group>"; };
+		52B6FA901D36D72400E8EEBD /* 037-Vulpix-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "037-Vulpix-icon.png"; path = "SupportingFiles/Images/Pokemon/037-Vulpix-icon.png"; sourceTree = "<group>"; };
+		52B6FA911D36D72400E8EEBD /* 038-Ninetales-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "038-Ninetales-icon.png"; path = "SupportingFiles/Images/Pokemon/038-Ninetales-icon.png"; sourceTree = "<group>"; };
+		52B6FA921D36D72400E8EEBD /* 039-Jigglypuff-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "039-Jigglypuff-icon.png"; path = "SupportingFiles/Images/Pokemon/039-Jigglypuff-icon.png"; sourceTree = "<group>"; };
+		52B6FA931D36D72400E8EEBD /* 040-Wigglytuff-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "040-Wigglytuff-icon.png"; path = "SupportingFiles/Images/Pokemon/040-Wigglytuff-icon.png"; sourceTree = "<group>"; };
+		52B6FA941D36D72400E8EEBD /* 041-Zubat-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "041-Zubat-icon.png"; path = "SupportingFiles/Images/Pokemon/041-Zubat-icon.png"; sourceTree = "<group>"; };
+		52B6FA951D36D72400E8EEBD /* 042-Golbat-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "042-Golbat-icon.png"; path = "SupportingFiles/Images/Pokemon/042-Golbat-icon.png"; sourceTree = "<group>"; };
+		52B6FA961D36D72400E8EEBD /* 043-Oddish-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "043-Oddish-icon.png"; path = "SupportingFiles/Images/Pokemon/043-Oddish-icon.png"; sourceTree = "<group>"; };
+		52B6FA971D36D72400E8EEBD /* 044-Gloom-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "044-Gloom-icon.png"; path = "SupportingFiles/Images/Pokemon/044-Gloom-icon.png"; sourceTree = "<group>"; };
+		52B6FA981D36D72400E8EEBD /* 045-Vileplume-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "045-Vileplume-icon.png"; path = "SupportingFiles/Images/Pokemon/045-Vileplume-icon.png"; sourceTree = "<group>"; };
+		52B6FA991D36D72400E8EEBD /* 046-Paras-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "046-Paras-icon.png"; path = "SupportingFiles/Images/Pokemon/046-Paras-icon.png"; sourceTree = "<group>"; };
+		52B6FA9A1D36D72400E8EEBD /* 047-Parasect-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "047-Parasect-icon.png"; path = "SupportingFiles/Images/Pokemon/047-Parasect-icon.png"; sourceTree = "<group>"; };
+		52B6FA9B1D36D72400E8EEBD /* 048-Venonat-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "048-Venonat-icon.png"; path = "SupportingFiles/Images/Pokemon/048-Venonat-icon.png"; sourceTree = "<group>"; };
+		52B6FA9C1D36D72400E8EEBD /* 049-Venomoth-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "049-Venomoth-icon.png"; path = "SupportingFiles/Images/Pokemon/049-Venomoth-icon.png"; sourceTree = "<group>"; };
+		52B6FA9D1D36D72400E8EEBD /* 050-Diglett-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "050-Diglett-icon.png"; path = "SupportingFiles/Images/Pokemon/050-Diglett-icon.png"; sourceTree = "<group>"; };
+		52B6FA9E1D36D72400E8EEBD /* 051-Dugtrio-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "051-Dugtrio-icon.png"; path = "SupportingFiles/Images/Pokemon/051-Dugtrio-icon.png"; sourceTree = "<group>"; };
+		52B6FA9F1D36D72400E8EEBD /* 052-Meowth-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "052-Meowth-icon.png"; path = "SupportingFiles/Images/Pokemon/052-Meowth-icon.png"; sourceTree = "<group>"; };
+		52B6FAA01D36D72400E8EEBD /* 053-Persian-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "053-Persian-icon.png"; path = "SupportingFiles/Images/Pokemon/053-Persian-icon.png"; sourceTree = "<group>"; };
+		52B6FAA11D36D72400E8EEBD /* 054-Psyduck-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "054-Psyduck-icon.png"; path = "SupportingFiles/Images/Pokemon/054-Psyduck-icon.png"; sourceTree = "<group>"; };
+		52B6FAA21D36D72400E8EEBD /* 055-Golduck-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "055-Golduck-icon.png"; path = "SupportingFiles/Images/Pokemon/055-Golduck-icon.png"; sourceTree = "<group>"; };
+		52B6FAA31D36D72400E8EEBD /* 056-Mankey-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "056-Mankey-icon.png"; path = "SupportingFiles/Images/Pokemon/056-Mankey-icon.png"; sourceTree = "<group>"; };
+		52B6FAA41D36D72400E8EEBD /* 057-Primeape-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "057-Primeape-icon.png"; path = "SupportingFiles/Images/Pokemon/057-Primeape-icon.png"; sourceTree = "<group>"; };
+		52B6FAA51D36D72400E8EEBD /* 058-Growlithe-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "058-Growlithe-icon.png"; path = "SupportingFiles/Images/Pokemon/058-Growlithe-icon.png"; sourceTree = "<group>"; };
+		52B6FAA61D36D72400E8EEBD /* 059-Arcanine-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "059-Arcanine-icon.png"; path = "SupportingFiles/Images/Pokemon/059-Arcanine-icon.png"; sourceTree = "<group>"; };
+		52B6FAA71D36D72400E8EEBD /* 060-Poliwag-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "060-Poliwag-icon.png"; path = "SupportingFiles/Images/Pokemon/060-Poliwag-icon.png"; sourceTree = "<group>"; };
+		52B6FAA81D36D72400E8EEBD /* 061-Poliwhirl-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "061-Poliwhirl-icon.png"; path = "SupportingFiles/Images/Pokemon/061-Poliwhirl-icon.png"; sourceTree = "<group>"; };
+		52B6FAA91D36D72400E8EEBD /* 062-Poliwrath-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "062-Poliwrath-icon.png"; path = "SupportingFiles/Images/Pokemon/062-Poliwrath-icon.png"; sourceTree = "<group>"; };
+		52B6FAAA1D36D72400E8EEBD /* 063-Abra-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "063-Abra-icon.png"; path = "SupportingFiles/Images/Pokemon/063-Abra-icon.png"; sourceTree = "<group>"; };
+		52B6FAAB1D36D72400E8EEBD /* 064-Kadabra-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "064-Kadabra-icon.png"; path = "SupportingFiles/Images/Pokemon/064-Kadabra-icon.png"; sourceTree = "<group>"; };
+		52B6FAAC1D36D72500E8EEBD /* 065-Alakazam-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "065-Alakazam-icon.png"; path = "SupportingFiles/Images/Pokemon/065-Alakazam-icon.png"; sourceTree = "<group>"; };
+		52B6FAAD1D36D72500E8EEBD /* 066-Machop-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "066-Machop-icon.png"; path = "SupportingFiles/Images/Pokemon/066-Machop-icon.png"; sourceTree = "<group>"; };
+		52B6FAAE1D36D72500E8EEBD /* 067-Machoke-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "067-Machoke-icon.png"; path = "SupportingFiles/Images/Pokemon/067-Machoke-icon.png"; sourceTree = "<group>"; };
+		52B6FAAF1D36D72500E8EEBD /* 068-Machamp-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "068-Machamp-icon.png"; path = "SupportingFiles/Images/Pokemon/068-Machamp-icon.png"; sourceTree = "<group>"; };
+		52B6FAB01D36D72500E8EEBD /* 069-Bellsprout-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "069-Bellsprout-icon.png"; path = "SupportingFiles/Images/Pokemon/069-Bellsprout-icon.png"; sourceTree = "<group>"; };
+		52B6FAB11D36D72500E8EEBD /* 070-Weepinbell-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "070-Weepinbell-icon.png"; path = "SupportingFiles/Images/Pokemon/070-Weepinbell-icon.png"; sourceTree = "<group>"; };
+		52B6FAB21D36D72500E8EEBD /* 071-Victreebel-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "071-Victreebel-icon.png"; path = "SupportingFiles/Images/Pokemon/071-Victreebel-icon.png"; sourceTree = "<group>"; };
+		52B6FAB31D36D72500E8EEBD /* 072-Tentacool-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "072-Tentacool-icon.png"; path = "SupportingFiles/Images/Pokemon/072-Tentacool-icon.png"; sourceTree = "<group>"; };
+		52B6FAB41D36D72500E8EEBD /* 073-Tentacruel-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "073-Tentacruel-icon.png"; path = "SupportingFiles/Images/Pokemon/073-Tentacruel-icon.png"; sourceTree = "<group>"; };
+		52B6FAB51D36D72500E8EEBD /* 074-Geodude-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "074-Geodude-icon.png"; path = "SupportingFiles/Images/Pokemon/074-Geodude-icon.png"; sourceTree = "<group>"; };
+		52B6FAB61D36D72500E8EEBD /* 075-Graveler-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "075-Graveler-icon.png"; path = "SupportingFiles/Images/Pokemon/075-Graveler-icon.png"; sourceTree = "<group>"; };
+		52B6FAB71D36D72500E8EEBD /* 076-Golem-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "076-Golem-icon.png"; path = "SupportingFiles/Images/Pokemon/076-Golem-icon.png"; sourceTree = "<group>"; };
+		52B6FAB81D36D72500E8EEBD /* 077-Ponyta-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "077-Ponyta-icon.png"; path = "SupportingFiles/Images/Pokemon/077-Ponyta-icon.png"; sourceTree = "<group>"; };
+		52B6FAB91D36D72500E8EEBD /* 078-Rapidash-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "078-Rapidash-icon.png"; path = "SupportingFiles/Images/Pokemon/078-Rapidash-icon.png"; sourceTree = "<group>"; };
+		52B6FABA1D36D72500E8EEBD /* 079-Slowpoke-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "079-Slowpoke-icon.png"; path = "SupportingFiles/Images/Pokemon/079-Slowpoke-icon.png"; sourceTree = "<group>"; };
+		52B6FABB1D36D72500E8EEBD /* 080-Slowbro-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "080-Slowbro-icon.png"; path = "SupportingFiles/Images/Pokemon/080-Slowbro-icon.png"; sourceTree = "<group>"; };
+		52B6FABC1D36D72500E8EEBD /* 081-Magnemite-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "081-Magnemite-icon.png"; path = "SupportingFiles/Images/Pokemon/081-Magnemite-icon.png"; sourceTree = "<group>"; };
+		52B6FABD1D36D72500E8EEBD /* 082-Magneton-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "082-Magneton-icon.png"; path = "SupportingFiles/Images/Pokemon/082-Magneton-icon.png"; sourceTree = "<group>"; };
+		52B6FABE1D36D72500E8EEBD /* 083-Farfetchd-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "083-Farfetchd-icon.png"; path = "SupportingFiles/Images/Pokemon/083-Farfetchd-icon.png"; sourceTree = "<group>"; };
+		52B6FABF1D36D72500E8EEBD /* 084-Doduo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "084-Doduo-icon.png"; path = "SupportingFiles/Images/Pokemon/084-Doduo-icon.png"; sourceTree = "<group>"; };
+		52B6FAC01D36D72500E8EEBD /* 085-Dodrio-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "085-Dodrio-icon.png"; path = "SupportingFiles/Images/Pokemon/085-Dodrio-icon.png"; sourceTree = "<group>"; };
+		52B6FAC11D36D72500E8EEBD /* 086-Seel-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "086-Seel-icon.png"; path = "SupportingFiles/Images/Pokemon/086-Seel-icon.png"; sourceTree = "<group>"; };
+		52B6FAC21D36D72500E8EEBD /* 087-Dewgong-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "087-Dewgong-icon.png"; path = "SupportingFiles/Images/Pokemon/087-Dewgong-icon.png"; sourceTree = "<group>"; };
+		52B6FAC31D36D72500E8EEBD /* 088-Grimer-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "088-Grimer-icon.png"; path = "SupportingFiles/Images/Pokemon/088-Grimer-icon.png"; sourceTree = "<group>"; };
+		52B6FAC41D36D72500E8EEBD /* 089-Muk-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "089-Muk-icon.png"; path = "SupportingFiles/Images/Pokemon/089-Muk-icon.png"; sourceTree = "<group>"; };
+		52B6FAC51D36D72500E8EEBD /* 090-Shellder-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "090-Shellder-icon.png"; path = "SupportingFiles/Images/Pokemon/090-Shellder-icon.png"; sourceTree = "<group>"; };
+		52B6FAC61D36D72500E8EEBD /* 091-Cloyster-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "091-Cloyster-icon.png"; path = "SupportingFiles/Images/Pokemon/091-Cloyster-icon.png"; sourceTree = "<group>"; };
+		52B6FAC71D36D72500E8EEBD /* 092-Gastly-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "092-Gastly-icon.png"; path = "SupportingFiles/Images/Pokemon/092-Gastly-icon.png"; sourceTree = "<group>"; };
+		52B6FAC81D36D72500E8EEBD /* 093-Haunter-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "093-Haunter-icon.png"; path = "SupportingFiles/Images/Pokemon/093-Haunter-icon.png"; sourceTree = "<group>"; };
+		52B6FAC91D36D72500E8EEBD /* 094-Gengar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "094-Gengar-icon.png"; path = "SupportingFiles/Images/Pokemon/094-Gengar-icon.png"; sourceTree = "<group>"; };
+		52B6FACA1D36D72500E8EEBD /* 095-Onix-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "095-Onix-icon.png"; path = "SupportingFiles/Images/Pokemon/095-Onix-icon.png"; sourceTree = "<group>"; };
+		52B6FACB1D36D72500E8EEBD /* 096-Drowzee-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "096-Drowzee-icon.png"; path = "SupportingFiles/Images/Pokemon/096-Drowzee-icon.png"; sourceTree = "<group>"; };
+		52B6FACC1D36D72500E8EEBD /* 097-Hypno-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "097-Hypno-icon.png"; path = "SupportingFiles/Images/Pokemon/097-Hypno-icon.png"; sourceTree = "<group>"; };
+		52B6FACD1D36D72500E8EEBD /* 098-Krabby-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "098-Krabby-icon.png"; path = "SupportingFiles/Images/Pokemon/098-Krabby-icon.png"; sourceTree = "<group>"; };
+		52B6FACE1D36D72500E8EEBD /* 099-Kingler-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "099-Kingler-icon.png"; path = "SupportingFiles/Images/Pokemon/099-Kingler-icon.png"; sourceTree = "<group>"; };
+		52B6FACF1D36D72500E8EEBD /* 100-Voltorb-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "100-Voltorb-icon.png"; path = "SupportingFiles/Images/Pokemon/100-Voltorb-icon.png"; sourceTree = "<group>"; };
+		52B6FAD01D36D72500E8EEBD /* 101-Electrode-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "101-Electrode-icon.png"; path = "SupportingFiles/Images/Pokemon/101-Electrode-icon.png"; sourceTree = "<group>"; };
+		52B6FAD11D36D72500E8EEBD /* 102-Exeggcute-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "102-Exeggcute-icon.png"; path = "SupportingFiles/Images/Pokemon/102-Exeggcute-icon.png"; sourceTree = "<group>"; };
+		52B6FAD21D36D72500E8EEBD /* 103-Exeggutor-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "103-Exeggutor-icon.png"; path = "SupportingFiles/Images/Pokemon/103-Exeggutor-icon.png"; sourceTree = "<group>"; };
+		52B6FAD31D36D72500E8EEBD /* 104-Cubone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "104-Cubone-icon.png"; path = "SupportingFiles/Images/Pokemon/104-Cubone-icon.png"; sourceTree = "<group>"; };
+		52B6FAD41D36D72500E8EEBD /* 105-Marowak-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "105-Marowak-icon.png"; path = "SupportingFiles/Images/Pokemon/105-Marowak-icon.png"; sourceTree = "<group>"; };
+		52B6FAD51D36D72500E8EEBD /* 106-Hitmonlee-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "106-Hitmonlee-icon.png"; path = "SupportingFiles/Images/Pokemon/106-Hitmonlee-icon.png"; sourceTree = "<group>"; };
+		52B6FAD61D36D72500E8EEBD /* 107-Hitmonchan-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "107-Hitmonchan-icon.png"; path = "SupportingFiles/Images/Pokemon/107-Hitmonchan-icon.png"; sourceTree = "<group>"; };
+		52B6FAD71D36D72500E8EEBD /* 108-Lickitung-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "108-Lickitung-icon.png"; path = "SupportingFiles/Images/Pokemon/108-Lickitung-icon.png"; sourceTree = "<group>"; };
+		52B6FAD81D36D72500E8EEBD /* 109-Koffing-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "109-Koffing-icon.png"; path = "SupportingFiles/Images/Pokemon/109-Koffing-icon.png"; sourceTree = "<group>"; };
+		52B6FAD91D36D72500E8EEBD /* 110-Weezing-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "110-Weezing-icon.png"; path = "SupportingFiles/Images/Pokemon/110-Weezing-icon.png"; sourceTree = "<group>"; };
+		52B6FADA1D36D72500E8EEBD /* 111-Rhyhorn-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "111-Rhyhorn-icon.png"; path = "SupportingFiles/Images/Pokemon/111-Rhyhorn-icon.png"; sourceTree = "<group>"; };
+		52B6FADB1D36D72500E8EEBD /* 112-Rhydon-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "112-Rhydon-icon.png"; path = "SupportingFiles/Images/Pokemon/112-Rhydon-icon.png"; sourceTree = "<group>"; };
+		52B6FADC1D36D72500E8EEBD /* 113-Chansey-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "113-Chansey-icon.png"; path = "SupportingFiles/Images/Pokemon/113-Chansey-icon.png"; sourceTree = "<group>"; };
+		52B6FADD1D36D72500E8EEBD /* 114-Tangela-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "114-Tangela-icon.png"; path = "SupportingFiles/Images/Pokemon/114-Tangela-icon.png"; sourceTree = "<group>"; };
+		52B6FADE1D36D72500E8EEBD /* 115-Kangaskhan-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "115-Kangaskhan-icon.png"; path = "SupportingFiles/Images/Pokemon/115-Kangaskhan-icon.png"; sourceTree = "<group>"; };
+		52B6FADF1D36D72500E8EEBD /* 116-Horsea-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "116-Horsea-icon.png"; path = "SupportingFiles/Images/Pokemon/116-Horsea-icon.png"; sourceTree = "<group>"; };
+		52B6FAE01D36D72500E8EEBD /* 117-Seadra-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "117-Seadra-icon.png"; path = "SupportingFiles/Images/Pokemon/117-Seadra-icon.png"; sourceTree = "<group>"; };
+		52B6FAE11D36D72500E8EEBD /* 118-Goldeen-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "118-Goldeen-icon.png"; path = "SupportingFiles/Images/Pokemon/118-Goldeen-icon.png"; sourceTree = "<group>"; };
+		52B6FAE21D36D72500E8EEBD /* 119-Seaking-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "119-Seaking-icon.png"; path = "SupportingFiles/Images/Pokemon/119-Seaking-icon.png"; sourceTree = "<group>"; };
+		52B6FAE31D36D72500E8EEBD /* 120-Staryu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "120-Staryu-icon.png"; path = "SupportingFiles/Images/Pokemon/120-Staryu-icon.png"; sourceTree = "<group>"; };
+		52B6FAE41D36D72500E8EEBD /* 121-Starmie-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "121-Starmie-icon.png"; path = "SupportingFiles/Images/Pokemon/121-Starmie-icon.png"; sourceTree = "<group>"; };
+		52B6FAE51D36D72500E8EEBD /* 122-Mr-Mime-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "122-Mr-Mime-icon.png"; path = "SupportingFiles/Images/Pokemon/122-Mr-Mime-icon.png"; sourceTree = "<group>"; };
+		52B6FAE61D36D72500E8EEBD /* 123-Scyther-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "123-Scyther-icon.png"; path = "SupportingFiles/Images/Pokemon/123-Scyther-icon.png"; sourceTree = "<group>"; };
+		52B6FAE71D36D72500E8EEBD /* 124-Jynx-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "124-Jynx-icon.png"; path = "SupportingFiles/Images/Pokemon/124-Jynx-icon.png"; sourceTree = "<group>"; };
+		52B6FAE81D36D72500E8EEBD /* 125-Electabuzz-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "125-Electabuzz-icon.png"; path = "SupportingFiles/Images/Pokemon/125-Electabuzz-icon.png"; sourceTree = "<group>"; };
+		52B6FAE91D36D72500E8EEBD /* 126-Magmar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "126-Magmar-icon.png"; path = "SupportingFiles/Images/Pokemon/126-Magmar-icon.png"; sourceTree = "<group>"; };
+		52B6FAEA1D36D72500E8EEBD /* 127-Pinsir-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "127-Pinsir-icon.png"; path = "SupportingFiles/Images/Pokemon/127-Pinsir-icon.png"; sourceTree = "<group>"; };
+		52B6FAEB1D36D72500E8EEBD /* 128-Tauros-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "128-Tauros-icon.png"; path = "SupportingFiles/Images/Pokemon/128-Tauros-icon.png"; sourceTree = "<group>"; };
+		52B6FAEC1D36D72500E8EEBD /* 129-Magikarp-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "129-Magikarp-icon.png"; path = "SupportingFiles/Images/Pokemon/129-Magikarp-icon.png"; sourceTree = "<group>"; };
+		52B6FAED1D36D72500E8EEBD /* 130-Gyarados-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "130-Gyarados-icon.png"; path = "SupportingFiles/Images/Pokemon/130-Gyarados-icon.png"; sourceTree = "<group>"; };
+		52B6FAEE1D36D72500E8EEBD /* 131-Lapras-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "131-Lapras-icon.png"; path = "SupportingFiles/Images/Pokemon/131-Lapras-icon.png"; sourceTree = "<group>"; };
+		52B6FAEF1D36D72500E8EEBD /* 132-Ditto-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "132-Ditto-icon.png"; path = "SupportingFiles/Images/Pokemon/132-Ditto-icon.png"; sourceTree = "<group>"; };
+		52B6FAF01D36D72500E8EEBD /* 133-Eevee-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "133-Eevee-icon.png"; path = "SupportingFiles/Images/Pokemon/133-Eevee-icon.png"; sourceTree = "<group>"; };
+		52B6FAF11D36D72500E8EEBD /* 134-Vaporeon-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "134-Vaporeon-icon.png"; path = "SupportingFiles/Images/Pokemon/134-Vaporeon-icon.png"; sourceTree = "<group>"; };
+		52B6FAF21D36D72500E8EEBD /* 135-Jolteon-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "135-Jolteon-icon.png"; path = "SupportingFiles/Images/Pokemon/135-Jolteon-icon.png"; sourceTree = "<group>"; };
+		52B6FAF31D36D72500E8EEBD /* 136-Flareon-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "136-Flareon-icon.png"; path = "SupportingFiles/Images/Pokemon/136-Flareon-icon.png"; sourceTree = "<group>"; };
+		52B6FAF41D36D72500E8EEBD /* 137-Porygon-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "137-Porygon-icon.png"; path = "SupportingFiles/Images/Pokemon/137-Porygon-icon.png"; sourceTree = "<group>"; };
+		52B6FAF51D36D72500E8EEBD /* 138-Omanyte-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "138-Omanyte-icon.png"; path = "SupportingFiles/Images/Pokemon/138-Omanyte-icon.png"; sourceTree = "<group>"; };
+		52B6FAF61D36D72500E8EEBD /* 139-Omastar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "139-Omastar-icon.png"; path = "SupportingFiles/Images/Pokemon/139-Omastar-icon.png"; sourceTree = "<group>"; };
+		52B6FAF71D36D72500E8EEBD /* 140-Kabuto-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "140-Kabuto-icon.png"; path = "SupportingFiles/Images/Pokemon/140-Kabuto-icon.png"; sourceTree = "<group>"; };
+		52B6FAF81D36D72500E8EEBD /* 141-Kabutops-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "141-Kabutops-icon.png"; path = "SupportingFiles/Images/Pokemon/141-Kabutops-icon.png"; sourceTree = "<group>"; };
+		52B6FAF91D36D72500E8EEBD /* 142-Aerodactyl-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "142-Aerodactyl-icon.png"; path = "SupportingFiles/Images/Pokemon/142-Aerodactyl-icon.png"; sourceTree = "<group>"; };
+		52B6FAFA1D36D72500E8EEBD /* 143-Snorlax-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "143-Snorlax-icon.png"; path = "SupportingFiles/Images/Pokemon/143-Snorlax-icon.png"; sourceTree = "<group>"; };
+		52B6FAFB1D36D72500E8EEBD /* 144-Articuno-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "144-Articuno-icon.png"; path = "SupportingFiles/Images/Pokemon/144-Articuno-icon.png"; sourceTree = "<group>"; };
+		52B6FAFC1D36D72500E8EEBD /* 145-Zapdos-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "145-Zapdos-icon.png"; path = "SupportingFiles/Images/Pokemon/145-Zapdos-icon.png"; sourceTree = "<group>"; };
+		52B6FAFD1D36D72500E8EEBD /* 146-Moltres-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "146-Moltres-icon.png"; path = "SupportingFiles/Images/Pokemon/146-Moltres-icon.png"; sourceTree = "<group>"; };
+		52B6FAFE1D36D72500E8EEBD /* 147-Dratini-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "147-Dratini-icon.png"; path = "SupportingFiles/Images/Pokemon/147-Dratini-icon.png"; sourceTree = "<group>"; };
+		52B6FAFF1D36D72500E8EEBD /* 148-Dragonair-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "148-Dragonair-icon.png"; path = "SupportingFiles/Images/Pokemon/148-Dragonair-icon.png"; sourceTree = "<group>"; };
+		52B6FB001D36D72500E8EEBD /* 149-Dragonite-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "149-Dragonite-icon.png"; path = "SupportingFiles/Images/Pokemon/149-Dragonite-icon.png"; sourceTree = "<group>"; };
+		52B6FB011D36D72500E8EEBD /* 150-Mewtwo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "150-Mewtwo-icon.png"; path = "SupportingFiles/Images/Pokemon/150-Mewtwo-icon.png"; sourceTree = "<group>"; };
+		52B6FB021D36D72500E8EEBD /* 151-Mew-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "151-Mew-icon.png"; path = "SupportingFiles/Images/Pokemon/151-Mew-icon.png"; sourceTree = "<group>"; };
+		52D916811D3571BB00FA3C70 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = Views/Login.swift; sourceTree = "<group>"; };
+		52D916831D3571C900FA3C70 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Views/Map.swift; sourceTree = "<group>"; };
+		52D916861D35722600FA3C70 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = SupportingFiles/Images/info.png; sourceTree = "<group>"; };
+		52D916871D35722600FA3C70 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = SupportingFiles/Images/location.png; sourceTree = "<group>"; };
+		52D916881D35722600FA3C70 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = SupportingFiles/Images/refresh.png; sourceTree = "<group>"; };
+		52D9168D1D35723900FA3C70 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		52D916911D35769100FA3C70 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Register.swift; path = Views/Register.swift; sourceTree = "<group>"; };
+		8FB94AEE1BB6FB8400E2D396 /* Poke Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poke Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB94AF11BB6FB8400E2D396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FB94AF61BB6FB8400E2D396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FB94B031BB7030500E2D396 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FB94AEB1BB6FB8400E2D396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5229BDE31D3445E4005D076D /* AdSupport.framework in Frameworks */,
+				5229BDE11D3445DD005D076D /* AudioToolbox.framework in Frameworks */,
+				5229BDDF1D3445D8005D076D /* AVFoundation.framework in Frameworks */,
+				521658971D3448AC006CB77F /* GoogleMobileAds.framework in Frameworks */,
+				5229BDDD1D3445D3005D076D /* CoreGraphics.framework in Frameworks */,
+				5229BDDB1D3445CE005D076D /* CoreTelephony.framework in Frameworks */,
+				5229BDD91D3445BB005D076D /* EventKit.framework in Frameworks */,
+				5229BDD71D3445B5005D076D /* MessageUI.framework in Frameworks */,
+				5229BDD51D3445AD005D076D /* StoreKit.framework in Frameworks */,
+				5229BDD31D3445A8005D076D /* SystemConfiguration.framework in Frameworks */,
+				8FB94B041BB7030500E2D396 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52555FFB1D36A80000DE6E61 /* Pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				52B6FA6B1D36D72400E8EEBD /* 001-Bulbasaur-icon.png */,
+				52B6FA6C1D36D72400E8EEBD /* 002-Ivysaur-icon.png */,
+				52B6FA6D1D36D72400E8EEBD /* 003-Venusaur-icon.png */,
+				52B6FA6E1D36D72400E8EEBD /* 004-Charmander-icon.png */,
+				52B6FA6F1D36D72400E8EEBD /* 005-Charmeleon-icon.png */,
+				52B6FA701D36D72400E8EEBD /* 006-Charizard-icon (1).png */,
+				52B6FA711D36D72400E8EEBD /* 006-Charizard-icon.png */,
+				52B6FA721D36D72400E8EEBD /* 007-Squirtle-icon.png */,
+				52B6FA731D36D72400E8EEBD /* 008-Wartortle-icon.png */,
+				52B6FA741D36D72400E8EEBD /* 009-Blastoise-icon.png */,
+				52B6FA751D36D72400E8EEBD /* 010-Caterpie-icon.png */,
+				52B6FA761D36D72400E8EEBD /* 011-Metapod-icon.png */,
+				52B6FA771D36D72400E8EEBD /* 012-Butterfree-icon.png */,
+				52B6FA781D36D72400E8EEBD /* 013-Weedle-icon.png */,
+				52B6FA791D36D72400E8EEBD /* 014-Kakuna-icon.png */,
+				52B6FA7A1D36D72400E8EEBD /* 015-Beedrill-icon.png */,
+				52B6FA7B1D36D72400E8EEBD /* 016-Pidgey-icon.png */,
+				52B6FA7C1D36D72400E8EEBD /* 017-Pidgeotto-icon.png */,
+				52B6FA7D1D36D72400E8EEBD /* 018-Pidgeot-icon.png */,
+				52B6FA7E1D36D72400E8EEBD /* 019-Rattata-icon.png */,
+				52B6FA7F1D36D72400E8EEBD /* 020-Raticate-icon.png */,
+				52B6FA801D36D72400E8EEBD /* 021-Spearow-icon.png */,
+				52B6FA811D36D72400E8EEBD /* 022-Fearow-icon.png */,
+				52B6FA821D36D72400E8EEBD /* 023-Ekans-icon.png */,
+				52B6FA831D36D72400E8EEBD /* 024-Arbok-icon.png */,
+				52B6FA841D36D72400E8EEBD /* 025-Pikachu-icon.png */,
+				52B6FA851D36D72400E8EEBD /* 026-Raichu-icon.png */,
+				52B6FA861D36D72400E8EEBD /* 027-Sandshrew-icon.png */,
+				52B6FA871D36D72400E8EEBD /* 028-Sandslash-icon.png */,
+				52B6FA881D36D72400E8EEBD /* 029-Nidoran-icon.png */,
+				52B6FA891D36D72400E8EEBD /* 030-Nidorina-icon.png */,
+				52B6FA8A1D36D72400E8EEBD /* 031-Nidoqueen-icon.png */,
+				52B6FA8B1D36D72400E8EEBD /* 032-Nidorano-icon.png */,
+				52B6FA8C1D36D72400E8EEBD /* 033-Nidorino-icon.png */,
+				52B6FA8D1D36D72400E8EEBD /* 034-Nidoking-icon.png */,
+				52B6FA8E1D36D72400E8EEBD /* 035-Clefairy-icon.png */,
+				52B6FA8F1D36D72400E8EEBD /* 036-Clefable-icon.png */,
+				52B6FA901D36D72400E8EEBD /* 037-Vulpix-icon.png */,
+				52B6FA911D36D72400E8EEBD /* 038-Ninetales-icon.png */,
+				52B6FA921D36D72400E8EEBD /* 039-Jigglypuff-icon.png */,
+				52B6FA931D36D72400E8EEBD /* 040-Wigglytuff-icon.png */,
+				52B6FA941D36D72400E8EEBD /* 041-Zubat-icon.png */,
+				52B6FA951D36D72400E8EEBD /* 042-Golbat-icon.png */,
+				52B6FA961D36D72400E8EEBD /* 043-Oddish-icon.png */,
+				52B6FA971D36D72400E8EEBD /* 044-Gloom-icon.png */,
+				52B6FA981D36D72400E8EEBD /* 045-Vileplume-icon.png */,
+				52B6FA991D36D72400E8EEBD /* 046-Paras-icon.png */,
+				52B6FA9A1D36D72400E8EEBD /* 047-Parasect-icon.png */,
+				52B6FA9B1D36D72400E8EEBD /* 048-Venonat-icon.png */,
+				52B6FA9C1D36D72400E8EEBD /* 049-Venomoth-icon.png */,
+				52B6FA9D1D36D72400E8EEBD /* 050-Diglett-icon.png */,
+				52B6FA9E1D36D72400E8EEBD /* 051-Dugtrio-icon.png */,
+				52B6FA9F1D36D72400E8EEBD /* 052-Meowth-icon.png */,
+				52B6FAA01D36D72400E8EEBD /* 053-Persian-icon.png */,
+				52B6FAA11D36D72400E8EEBD /* 054-Psyduck-icon.png */,
+				52B6FAA21D36D72400E8EEBD /* 055-Golduck-icon.png */,
+				52B6FAA31D36D72400E8EEBD /* 056-Mankey-icon.png */,
+				52B6FAA41D36D72400E8EEBD /* 057-Primeape-icon.png */,
+				52B6FAA51D36D72400E8EEBD /* 058-Growlithe-icon.png */,
+				52B6FAA61D36D72400E8EEBD /* 059-Arcanine-icon.png */,
+				52B6FAA71D36D72400E8EEBD /* 060-Poliwag-icon.png */,
+				52B6FAA81D36D72400E8EEBD /* 061-Poliwhirl-icon.png */,
+				52B6FAA91D36D72400E8EEBD /* 062-Poliwrath-icon.png */,
+				52B6FAAA1D36D72400E8EEBD /* 063-Abra-icon.png */,
+				52B6FAAB1D36D72400E8EEBD /* 064-Kadabra-icon.png */,
+				52B6FAAC1D36D72500E8EEBD /* 065-Alakazam-icon.png */,
+				52B6FAAD1D36D72500E8EEBD /* 066-Machop-icon.png */,
+				52B6FAAE1D36D72500E8EEBD /* 067-Machoke-icon.png */,
+				52B6FAAF1D36D72500E8EEBD /* 068-Machamp-icon.png */,
+				52B6FAB01D36D72500E8EEBD /* 069-Bellsprout-icon.png */,
+				52B6FAB11D36D72500E8EEBD /* 070-Weepinbell-icon.png */,
+				52B6FAB21D36D72500E8EEBD /* 071-Victreebel-icon.png */,
+				52B6FAB31D36D72500E8EEBD /* 072-Tentacool-icon.png */,
+				52B6FAB41D36D72500E8EEBD /* 073-Tentacruel-icon.png */,
+				52B6FAB51D36D72500E8EEBD /* 074-Geodude-icon.png */,
+				52B6FAB61D36D72500E8EEBD /* 075-Graveler-icon.png */,
+				52B6FAB71D36D72500E8EEBD /* 076-Golem-icon.png */,
+				52B6FAB81D36D72500E8EEBD /* 077-Ponyta-icon.png */,
+				52B6FAB91D36D72500E8EEBD /* 078-Rapidash-icon.png */,
+				52B6FABA1D36D72500E8EEBD /* 079-Slowpoke-icon.png */,
+				52B6FABB1D36D72500E8EEBD /* 080-Slowbro-icon.png */,
+				52B6FABC1D36D72500E8EEBD /* 081-Magnemite-icon.png */,
+				52B6FABD1D36D72500E8EEBD /* 082-Magneton-icon.png */,
+				52B6FABE1D36D72500E8EEBD /* 083-Farfetchd-icon.png */,
+				52B6FABF1D36D72500E8EEBD /* 084-Doduo-icon.png */,
+				52B6FAC01D36D72500E8EEBD /* 085-Dodrio-icon.png */,
+				52B6FAC11D36D72500E8EEBD /* 086-Seel-icon.png */,
+				52B6FAC21D36D72500E8EEBD /* 087-Dewgong-icon.png */,
+				52B6FAC31D36D72500E8EEBD /* 088-Grimer-icon.png */,
+				52B6FAC41D36D72500E8EEBD /* 089-Muk-icon.png */,
+				52B6FAC51D36D72500E8EEBD /* 090-Shellder-icon.png */,
+				52B6FAC61D36D72500E8EEBD /* 091-Cloyster-icon.png */,
+				52B6FAC71D36D72500E8EEBD /* 092-Gastly-icon.png */,
+				52B6FAC81D36D72500E8EEBD /* 093-Haunter-icon.png */,
+				52B6FAC91D36D72500E8EEBD /* 094-Gengar-icon.png */,
+				52B6FACA1D36D72500E8EEBD /* 095-Onix-icon.png */,
+				52B6FACB1D36D72500E8EEBD /* 096-Drowzee-icon.png */,
+				52B6FACC1D36D72500E8EEBD /* 097-Hypno-icon.png */,
+				52B6FACD1D36D72500E8EEBD /* 098-Krabby-icon.png */,
+				52B6FACE1D36D72500E8EEBD /* 099-Kingler-icon.png */,
+				52B6FACF1D36D72500E8EEBD /* 100-Voltorb-icon.png */,
+				52B6FAD01D36D72500E8EEBD /* 101-Electrode-icon.png */,
+				52B6FAD11D36D72500E8EEBD /* 102-Exeggcute-icon.png */,
+				52B6FAD21D36D72500E8EEBD /* 103-Exeggutor-icon.png */,
+				52B6FAD31D36D72500E8EEBD /* 104-Cubone-icon.png */,
+				52B6FAD41D36D72500E8EEBD /* 105-Marowak-icon.png */,
+				52B6FAD51D36D72500E8EEBD /* 106-Hitmonlee-icon.png */,
+				52B6FAD61D36D72500E8EEBD /* 107-Hitmonchan-icon.png */,
+				52B6FAD71D36D72500E8EEBD /* 108-Lickitung-icon.png */,
+				52B6FAD81D36D72500E8EEBD /* 109-Koffing-icon.png */,
+				52B6FAD91D36D72500E8EEBD /* 110-Weezing-icon.png */,
+				52B6FADA1D36D72500E8EEBD /* 111-Rhyhorn-icon.png */,
+				52B6FADB1D36D72500E8EEBD /* 112-Rhydon-icon.png */,
+				52B6FADC1D36D72500E8EEBD /* 113-Chansey-icon.png */,
+				52B6FADD1D36D72500E8EEBD /* 114-Tangela-icon.png */,
+				52B6FADE1D36D72500E8EEBD /* 115-Kangaskhan-icon.png */,
+				52B6FADF1D36D72500E8EEBD /* 116-Horsea-icon.png */,
+				52B6FAE01D36D72500E8EEBD /* 117-Seadra-icon.png */,
+				52B6FAE11D36D72500E8EEBD /* 118-Goldeen-icon.png */,
+				52B6FAE21D36D72500E8EEBD /* 119-Seaking-icon.png */,
+				52B6FAE31D36D72500E8EEBD /* 120-Staryu-icon.png */,
+				52B6FAE41D36D72500E8EEBD /* 121-Starmie-icon.png */,
+				52B6FAE51D36D72500E8EEBD /* 122-Mr-Mime-icon.png */,
+				52B6FAE61D36D72500E8EEBD /* 123-Scyther-icon.png */,
+				52B6FAE71D36D72500E8EEBD /* 124-Jynx-icon.png */,
+				52B6FAE81D36D72500E8EEBD /* 125-Electabuzz-icon.png */,
+				52B6FAE91D36D72500E8EEBD /* 126-Magmar-icon.png */,
+				52B6FAEA1D36D72500E8EEBD /* 127-Pinsir-icon.png */,
+				52B6FAEB1D36D72500E8EEBD /* 128-Tauros-icon.png */,
+				52B6FAEC1D36D72500E8EEBD /* 129-Magikarp-icon.png */,
+				52B6FAED1D36D72500E8EEBD /* 130-Gyarados-icon.png */,
+				52B6FAEE1D36D72500E8EEBD /* 131-Lapras-icon.png */,
+				52B6FAEF1D36D72500E8EEBD /* 132-Ditto-icon.png */,
+				52B6FAF01D36D72500E8EEBD /* 133-Eevee-icon.png */,
+				52B6FAF11D36D72500E8EEBD /* 134-Vaporeon-icon.png */,
+				52B6FAF21D36D72500E8EEBD /* 135-Jolteon-icon.png */,
+				52B6FAF31D36D72500E8EEBD /* 136-Flareon-icon.png */,
+				52B6FAF41D36D72500E8EEBD /* 137-Porygon-icon.png */,
+				52B6FAF51D36D72500E8EEBD /* 138-Omanyte-icon.png */,
+				52B6FAF61D36D72500E8EEBD /* 139-Omastar-icon.png */,
+				52B6FAF71D36D72500E8EEBD /* 140-Kabuto-icon.png */,
+				52B6FAF81D36D72500E8EEBD /* 141-Kabutops-icon.png */,
+				52B6FAF91D36D72500E8EEBD /* 142-Aerodactyl-icon.png */,
+				52B6FAFA1D36D72500E8EEBD /* 143-Snorlax-icon.png */,
+				52B6FAFB1D36D72500E8EEBD /* 144-Articuno-icon.png */,
+				52B6FAFC1D36D72500E8EEBD /* 145-Zapdos-icon.png */,
+				52B6FAFD1D36D72500E8EEBD /* 146-Moltres-icon.png */,
+				52B6FAFE1D36D72500E8EEBD /* 147-Dratini-icon.png */,
+				52B6FAFF1D36D72500E8EEBD /* 148-Dragonair-icon.png */,
+				52B6FB001D36D72500E8EEBD /* 149-Dragonite-icon.png */,
+				52B6FB011D36D72500E8EEBD /* 150-Mewtwo-icon.png */,
+				52B6FB021D36D72500E8EEBD /* 151-Mew-icon.png */,
+			);
+			name = Pokemon;
+			sourceTree = "<group>";
+		};
+		5280AB181D3430E000534B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FB94AF51BB6FB8400E2D396 /* Main.storyboard */,
+				528A68A81D37FFD900F265CE /* LaunchScreen.xib */,
+				52D9168D1D35723900FA3C70 /* Info.plist */,
+				52555FF41D358FB200DE6E61 /* Bridging-Header.h */,
+				5280AB1A1D34312800534B42 /* Images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5280AB191D34310500534B42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521658961D3448AC006CB77F /* GoogleMobileAds.framework */,
+				5229BDE21D3445E4005D076D /* AdSupport.framework */,
+				5229BDE01D3445DD005D076D /* AudioToolbox.framework */,
+				5229BDDE1D3445D8005D076D /* AVFoundation.framework */,
+				5229BDDC1D3445D3005D076D /* CoreGraphics.framework */,
+				5229BDDA1D3445CE005D076D /* CoreTelephony.framework */,
+				5229BDD81D3445BB005D076D /* EventKit.framework */,
+				5229BDD61D3445B5005D076D /* MessageUI.framework */,
+				5229BDD41D3445AD005D076D /* StoreKit.framework */,
+				5229BDD21D3445A8005D076D /* SystemConfiguration.framework */,
+				8FB94B031BB7030500E2D396 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5280AB1A1D34312800534B42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				52555FFB1D36A80000DE6E61 /* Pokemon */,
+				528A68B01D380DEE00F265CE /* Icons */,
+				525560861D36B5DF00DE6E61 /* Images.xcassets */,
+				5231550E1D4141FF00E77869 /* icon.png */,
+				528A68AC1D380D3F00F265CE /* profile_bg.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		528A68B01D380DEE00F265CE /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				5205601B1D45122D005A2C53 /* user.png */,
+				528A68A41D37FB7000F265CE /* cross.png */,
+				52D916861D35722600FA3C70 /* info.png */,
+				52D916871D35722600FA3C70 /* location.png */,
+				52D916881D35722600FA3C70 /* refresh.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		52D916801D3571AA00FA3C70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52555FF91D36A28C00DE6E61 /* AddPokemon.swift */,
+				52D916811D3571BB00FA3C70 /* Login.swift */,
+				52D916831D3571C900FA3C70 /* Map.swift */,
+				528A68AE1D380DA900F265CE /* Profile.swift */,
+				52D916911D35769100FA3C70 /* Register.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8FB94AE51BB6FB8400E2D396 = {
+			isa = PBXGroup;
+			children = (
+				8FB94AF01BB6FB8400E2D396 /* Pokemon */,
+				5280AB191D34310500534B42 /* Frameworks */,
+				8FB94AEF1BB6FB8400E2D396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FB94AEF1BB6FB8400E2D396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FB94AEE1BB6FB8400E2D396 /* Poke Finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FB94AF01BB6FB8400E2D396 /* Pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				8FB94AF11BB6FB8400E2D396 /* AppDelegate.swift */,
+				525560881D36B6A600DE6E61 /* Constants.swift */,
+				525560841D36B5CF00DE6E61 /* Utils.swift */,
+				52D916801D3571AA00FA3C70 /* Views */,
+				5280AB181D3430E000534B42 /* Supporting Files */,
+			);
+			name = Pokemon;
+			path = "Map Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FB94AED1BB6FB8400E2D396 /* Poke Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB94B001BB6FB8400E2D396 /* Build configuration list for PBXNativeTarget "Poke Finder" */;
+			buildPhases = (
+				8FB94AEA1BB6FB8400E2D396 /* Sources */,
+				8FB94AEB1BB6FB8400E2D396 /* Frameworks */,
+				8FB94AEC1BB6FB8400E2D396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poke Finder";
+			productName = "Map Demo";
+			productReference = 8FB94AEE1BB6FB8400E2D396 /* Poke Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FB94AE61BB6FB8400E2D396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mike Pitre";
+				TargetAttributes = {
+					8FB94AED1BB6FB8400E2D396 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = P5Z7RL76WF;
+					};
+				};
+			};
+			buildConfigurationList = 8FB94AE91BB6FB8400E2D396 /* Build configuration list for PBXProject "Poke Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FB94AE51BB6FB8400E2D396;
+			productRefGroup = 8FB94AEF1BB6FB8400E2D396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FB94AED1BB6FB8400E2D396 /* Poke Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FB94AEC1BB6FB8400E2D396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B6FB3E1D36D72500E8EEBD /* 059-Arcanine-icon.png in Resources */,
+				52B6FB081D36D72500E8EEBD /* 006-Charizard-icon (1).png in Resources */,
+				5205601C1D45122D005A2C53 /* user.png in Resources */,
+				52B6FB9A1D36D72500E8EEBD /* 151-Mew-icon.png in Resources */,
+				52B6FB611D36D72500E8EEBD /* 094-Gengar-icon.png in Resources */,
+				52B6FB811D36D72500E8EEBD /* 126-Magmar-icon.png in Resources */,
+				52B6FB371D36D72500E8EEBD /* 052-Meowth-icon.png in Resources */,
+				52B6FB161D36D72500E8EEBD /* 019-Rattata-icon.png in Resources */,
+				52B6FB721D36D72500E8EEBD /* 111-Rhyhorn-icon.png in Resources */,
+				52B6FB5F1D36D72500E8EEBD /* 092-Gastly-icon.png in Resources */,
+				52D9168B1D35722600FA3C70 /* location.png in Resources */,
+				52B6FB7D1D36D72500E8EEBD /* 122-Mr-Mime-icon.png in Resources */,
+				52B6FB8D1D36D72500E8EEBD /* 138-Omanyte-icon.png in Resources */,
+				52B6FB2C1D36D72500E8EEBD /* 041-Zubat-icon.png in Resources */,
+				52B6FB631D36D72500E8EEBD /* 096-Drowzee-icon.png in Resources */,
+				52B6FB571D36D72500E8EEBD /* 084-Doduo-icon.png in Resources */,
+				52B6FB791D36D72500E8EEBD /* 118-Goldeen-icon.png in Resources */,
+				528A68A91D37FFD900F265CE /* LaunchScreen.xib in Resources */,
+				52B6FB3A1D36D72500E8EEBD /* 055-Golduck-icon.png in Resources */,
+				525560871D36B5DF00DE6E61 /* Images.xcassets in Resources */,
+				52B6FB931D36D72500E8EEBD /* 144-Articuno-icon.png in Resources */,
+				52B6FB441D36D72500E8EEBD /* 065-Alakazam-icon.png in Resources */,
+				52B6FB831D36D72500E8EEBD /* 128-Tauros-icon.png in Resources */,
+				52B6FB211D36D72500E8EEBD /* 030-Nidorina-icon.png in Resources */,
+				52B6FB101D36D72500E8EEBD /* 013-Weedle-icon.png in Resources */,
+				52B6FB2F1D36D72500E8EEBD /* 044-Gloom-icon.png in Resources */,
+				52B6FB541D36D72500E8EEBD /* 081-Magnemite-icon.png in Resources */,
+				52B6FB481D36D72500E8EEBD /* 069-Bellsprout-icon.png in Resources */,
+				52B6FB6C1D36D72500E8EEBD /* 105-Marowak-icon.png in Resources */,
+				52B6FB581D36D72500E8EEBD /* 085-Dodrio-icon.png in Resources */,
+				52B6FB361D36D72500E8EEBD /* 051-Dugtrio-icon.png in Resources */,
+				52B6FB4C1D36D72500E8EEBD /* 073-Tentacruel-icon.png in Resources */,
+				52B6FB5A1D36D72500E8EEBD /* 087-Dewgong-icon.png in Resources */,
+				52B6FB301D36D72500E8EEBD /* 045-Vileplume-icon.png in Resources */,
+				52B6FB131D36D72500E8EEBD /* 016-Pidgey-icon.png in Resources */,
+				52B6FB741D36D72500E8EEBD /* 113-Chansey-icon.png in Resources */,
+				52B6FB6D1D36D72500E8EEBD /* 106-Hitmonlee-icon.png in Resources */,
+				52B6FB5B1D36D72500E8EEBD /* 088-Grimer-icon.png in Resources */,
+				52B6FB551D36D72500E8EEBD /* 082-Magneton-icon.png in Resources */,
+				52B6FB4D1D36D72500E8EEBD /* 074-Geodude-icon.png in Resources */,
+				52B6FB1C1D36D72500E8EEBD /* 025-Pikachu-icon.png in Resources */,
+				52B6FB031D36D72500E8EEBD /* 001-Bulbasaur-icon.png in Resources */,
+				52B6FB881D36D72500E8EEBD /* 133-Eevee-icon.png in Resources */,
+				52B6FB751D36D72500E8EEBD /* 114-Tangela-icon.png in Resources */,
+				52B6FB351D36D72500E8EEBD /* 050-Diglett-icon.png in Resources */,
+				52B6FB1A1D36D72500E8EEBD /* 023-Ekans-icon.png in Resources */,
+				52B6FB981D36D72500E8EEBD /* 149-Dragonite-icon.png in Resources */,
+				52B6FB191D36D72500E8EEBD /* 022-Fearow-icon.png in Resources */,
+				52B6FB3B1D36D72500E8EEBD /* 056-Mankey-icon.png in Resources */,
+				52B6FB4A1D36D72500E8EEBD /* 071-Victreebel-icon.png in Resources */,
+				52B6FB8A1D36D72500E8EEBD /* 135-Jolteon-icon.png in Resources */,
+				52B6FB691D36D72500E8EEBD /* 102-Exeggcute-icon.png in Resources */,
+				52B6FB0B1D36D72500E8EEBD /* 008-Wartortle-icon.png in Resources */,
+				8FB94AF71BB6FB8400E2D396 /* Main.storyboard in Resources */,
+				52B6FB2E1D36D72500E8EEBD /* 043-Oddish-icon.png in Resources */,
+				52B6FB121D36D72500E8EEBD /* 015-Beedrill-icon.png in Resources */,
+				52B6FB401D36D72500E8EEBD /* 061-Poliwhirl-icon.png in Resources */,
+				528A68A51D37FB7000F265CE /* cross.png in Resources */,
+				52B6FB921D36D72500E8EEBD /* 143-Snorlax-icon.png in Resources */,
+				528A68AD1D380D3F00F265CE /* profile_bg.jpg in Resources */,
+				52B6FB3D1D36D72500E8EEBD /* 058-Growlithe-icon.png in Resources */,
+				52B6FB071D36D72500E8EEBD /* 005-Charmeleon-icon.png in Resources */,
+				52B6FB591D36D72500E8EEBD /* 086-Seel-icon.png in Resources */,
+				52B6FB311D36D72500E8EEBD /* 046-Paras-icon.png in Resources */,
+				52B6FB871D36D72500E8EEBD /* 132-Ditto-icon.png in Resources */,
+				52B6FB6F1D36D72500E8EEBD /* 108-Lickitung-icon.png in Resources */,
+				52B6FB761D36D72500E8EEBD /* 115-Kangaskhan-icon.png in Resources */,
+				52B6FB6B1D36D72500E8EEBD /* 104-Cubone-icon.png in Resources */,
+				52B6FB3C1D36D72500E8EEBD /* 057-Primeape-icon.png in Resources */,
+				52B6FB171D36D72500E8EEBD /* 020-Raticate-icon.png in Resources */,
+				52B6FB851D36D72500E8EEBD /* 130-Gyarados-icon.png in Resources */,
+				52B6FB641D36D72500E8EEBD /* 097-Hypno-icon.png in Resources */,
+				52B6FB201D36D72500E8EEBD /* 029-Nidoran-icon.png in Resources */,
+				52B6FB951D36D72500E8EEBD /* 146-Moltres-icon.png in Resources */,
+				52B6FB601D36D72500E8EEBD /* 093-Haunter-icon.png in Resources */,
+				52B6FB141D36D72500E8EEBD /* 017-Pidgeotto-icon.png in Resources */,
+				52B6FB471D36D72500E8EEBD /* 068-Machamp-icon.png in Resources */,
+				52B6FB341D36D72500E8EEBD /* 049-Venomoth-icon.png in Resources */,
+				52B6FB251D36D72500E8EEBD /* 034-Nidoking-icon.png in Resources */,
+				52B6FB181D36D72500E8EEBD /* 021-Spearow-icon.png in Resources */,
+				52B6FB8B1D36D72500E8EEBD /* 136-Flareon-icon.png in Resources */,
+				52B6FB841D36D72500E8EEBD /* 129-Magikarp-icon.png in Resources */,
+				52B6FB661D36D72500E8EEBD /* 099-Kingler-icon.png in Resources */,
+				52B6FB891D36D72500E8EEBD /* 134-Vaporeon-icon.png in Resources */,
+				52B6FB1F1D36D72500E8EEBD /* 028-Sandslash-icon.png in Resources */,
+				52B6FB451D36D72500E8EEBD /* 066-Machop-icon.png in Resources */,
+				52B6FB4B1D36D72500E8EEBD /* 072-Tentacool-icon.png in Resources */,
+				52B6FB5C1D36D72500E8EEBD /* 089-Muk-icon.png in Resources */,
+				52B6FB111D36D72500E8EEBD /* 014-Kakuna-icon.png in Resources */,
+				52B6FB6E1D36D72500E8EEBD /* 107-Hitmonchan-icon.png in Resources */,
+				52D9168A1D35722600FA3C70 /* info.png in Resources */,
+				52B6FB6A1D36D72500E8EEBD /* 103-Exeggutor-icon.png in Resources */,
+				52B6FB681D36D72500E8EEBD /* 101-Electrode-icon.png in Resources */,
+				52B6FB4E1D36D72500E8EEBD /* 075-Graveler-icon.png in Resources */,
+				52B6FB991D36D72500E8EEBD /* 150-Mewtwo-icon.png in Resources */,
+				52B6FB461D36D72500E8EEBD /* 067-Machoke-icon.png in Resources */,
+				52B6FB0D1D36D72500E8EEBD /* 010-Caterpie-icon.png in Resources */,
+				52B6FB391D36D72500E8EEBD /* 054-Psyduck-icon.png in Resources */,
+				52B6FB521D36D72500E8EEBD /* 079-Slowpoke-icon.png in Resources */,
+				52B6FB7E1D36D72500E8EEBD /* 123-Scyther-icon.png in Resources */,
+				52B6FB781D36D72500E8EEBD /* 117-Seadra-icon.png in Resources */,
+				52B6FB971D36D72500E8EEBD /* 148-Dragonair-icon.png in Resources */,
+				52B6FB7F1D36D72500E8EEBD /* 124-Jynx-icon.png in Resources */,
+				52B6FB331D36D72500E8EEBD /* 048-Venonat-icon.png in Resources */,
+				52B6FB061D36D72500E8EEBD /* 004-Charmander-icon.png in Resources */,
+				52B6FB701D36D72500E8EEBD /* 109-Koffing-icon.png in Resources */,
+				52B6FB801D36D72500E8EEBD /* 125-Electabuzz-icon.png in Resources */,
+				52B6FB381D36D72500E8EEBD /* 053-Persian-icon.png in Resources */,
+				52B6FB051D36D72500E8EEBD /* 003-Venusaur-icon.png in Resources */,
+				52B6FB151D36D72500E8EEBD /* 018-Pidgeot-icon.png in Resources */,
+				52B6FB1E1D36D72500E8EEBD /* 027-Sandshrew-icon.png in Resources */,
+				52B6FB221D36D72500E8EEBD /* 031-Nidoqueen-icon.png in Resources */,
+				52B6FB901D36D72500E8EEBD /* 141-Kabutops-icon.png in Resources */,
+				52B6FB231D36D72500E8EEBD /* 032-Nidorano-icon.png in Resources */,
+				52B6FB7B1D36D72500E8EEBD /* 120-Staryu-icon.png in Resources */,
+				52B6FB3F1D36D72500E8EEBD /* 060-Poliwag-icon.png in Resources */,
+				52B6FB281D36D72500E8EEBD /* 037-Vulpix-icon.png in Resources */,
+				52B6FB621D36D72500E8EEBD /* 095-Onix-icon.png in Resources */,
+				52B6FB861D36D72500E8EEBD /* 131-Lapras-icon.png in Resources */,
+				52B6FB321D36D72500E8EEBD /* 047-Parasect-icon.png in Resources */,
+				52B6FB7A1D36D72500E8EEBD /* 119-Seaking-icon.png in Resources */,
+				52B6FB911D36D72500E8EEBD /* 142-Aerodactyl-icon.png in Resources */,
+				52B6FB531D36D72500E8EEBD /* 080-Slowbro-icon.png in Resources */,
+				52B6FB4F1D36D72500E8EEBD /* 076-Golem-icon.png in Resources */,
+				52B6FB961D36D72500E8EEBD /* 147-Dratini-icon.png in Resources */,
+				52B6FB711D36D72500E8EEBD /* 110-Weezing-icon.png in Resources */,
+				52B6FB5D1D36D72500E8EEBD /* 090-Shellder-icon.png in Resources */,
+				52B6FB0C1D36D72500E8EEBD /* 009-Blastoise-icon.png in Resources */,
+				52B6FB261D36D72500E8EEBD /* 035-Clefairy-icon.png in Resources */,
+				52B6FB2A1D36D72500E8EEBD /* 039-Jigglypuff-icon.png in Resources */,
+				52B6FB651D36D72500E8EEBD /* 098-Krabby-icon.png in Resources */,
+				52B6FB511D36D72500E8EEBD /* 078-Rapidash-icon.png in Resources */,
+				5231550F1D4141FF00E77869 /* icon.png in Resources */,
+				52B6FB501D36D72500E8EEBD /* 077-Ponyta-icon.png in Resources */,
+				52B6FB0F1D36D72500E8EEBD /* 012-Butterfree-icon.png in Resources */,
+				52B6FB091D36D72500E8EEBD /* 006-Charizard-icon.png in Resources */,
+				52D9168C1D35722600FA3C70 /* refresh.png in Resources */,
+				52B6FB291D36D72500E8EEBD /* 038-Ninetales-icon.png in Resources */,
+				52B6FB821D36D72500E8EEBD /* 127-Pinsir-icon.png in Resources */,
+				52B6FB041D36D72500E8EEBD /* 002-Ivysaur-icon.png in Resources */,
+				52B6FB5E1D36D72500E8EEBD /* 091-Cloyster-icon.png in Resources */,
+				52B6FB771D36D72500E8EEBD /* 116-Horsea-icon.png in Resources */,
+				52B6FB421D36D72500E8EEBD /* 063-Abra-icon.png in Resources */,
+				52B6FB431D36D72500E8EEBD /* 064-Kadabra-icon.png in Resources */,
+				52B6FB241D36D72500E8EEBD /* 033-Nidorino-icon.png in Resources */,
+				52B6FB7C1D36D72500E8EEBD /* 121-Starmie-icon.png in Resources */,
+				52B6FB8C1D36D72500E8EEBD /* 137-Porygon-icon.png in Resources */,
+				52B6FB491D36D72500E8EEBD /* 070-Weepinbell-icon.png in Resources */,
+				52B6FB731D36D72500E8EEBD /* 112-Rhydon-icon.png in Resources */,
+				52B6FB411D36D72500E8EEBD /* 062-Poliwrath-icon.png in Resources */,
+				52B6FB941D36D72500E8EEBD /* 145-Zapdos-icon.png in Resources */,
+				52B6FB671D36D72500E8EEBD /* 100-Voltorb-icon.png in Resources */,
+				52B6FB561D36D72500E8EEBD /* 083-Farfetchd-icon.png in Resources */,
+				52B6FB2D1D36D72500E8EEBD /* 042-Golbat-icon.png in Resources */,
+				52B6FB0E1D36D72500E8EEBD /* 011-Metapod-icon.png in Resources */,
+				52B6FB271D36D72500E8EEBD /* 036-Clefable-icon.png in Resources */,
+				52B6FB2B1D36D72500E8EEBD /* 040-Wigglytuff-icon.png in Resources */,
+				52B6FB8E1D36D72500E8EEBD /* 139-Omastar-icon.png in Resources */,
+				52B6FB0A1D36D72500E8EEBD /* 007-Squirtle-icon.png in Resources */,
+				52B6FB1B1D36D72500E8EEBD /* 024-Arbok-icon.png in Resources */,
+				52B6FB8F1D36D72500E8EEBD /* 140-Kabuto-icon.png in Resources */,
+				52B6FB1D1D36D72500E8EEBD /* 026-Raichu-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FB94AEA1BB6FB8400E2D396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52555FFA1D36A28C00DE6E61 /* AddPokemon.swift in Sources */,
+				528A68AF1D380DA900F265CE /* Profile.swift in Sources */,
+				8FB94AF21BB6FB8400E2D396 /* AppDelegate.swift in Sources */,
+				52D916821D3571BB00FA3C70 /* Login.swift in Sources */,
+				52D916921D35769100FA3C70 /* Register.swift in Sources */,
+				525560891D36B6A600DE6E61 /* Constants.swift in Sources */,
+				52D916841D3571C900FA3C70 /* Map.swift in Sources */,
+				525560851D36B5CF00DE6E61 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FB94AF51BB6FB8400E2D396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FB94AF61BB6FB8400E2D396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FB94AFE1BB6FB8400E2D396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "33b45983-8be8-4d60-9ffa-44c4ca24fcdd";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FB94AFF1BB6FB8400E2D396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "33b45983-8be8-4d60-9ffa-44c4ca24fcdd";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FB94B011BB6FB8400E2D396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Map Demo/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyt.pokemongomaster;
+				PRODUCT_NAME = "Poke Finder";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Map Demo/SupportingFiles/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		8FB94B021BB6FB8400E2D396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Map Demo/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyt.pokemongomaster;
+				PRODUCT_NAME = "Poke Finder";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Map Demo/SupportingFiles/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FB94AE91BB6FB8400E2D396 /* Build configuration list for PBXProject "Poke Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB94AFE1BB6FB8400E2D396 /* Debug */,
+				8FB94AFF1BB6FB8400E2D396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB94B001BB6FB8400E2D396 /* Build configuration list for PBXNativeTarget "Poke Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB94B011BB6FB8400E2D396 /* Debug */,
+				8FB94B021BB6FB8400E2D396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FB94AE61BB6FB8400E2D396 /* Project object */;
+}
