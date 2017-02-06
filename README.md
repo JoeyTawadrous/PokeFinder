@@ -19,7 +19,7 @@ Allows PokemonGo players to add locations for Pokemon they have found!
 * Maps
 
 
-<img alt="Screenshot" width="205px" src="readme-assets/1.png">
+<img alt="Screenshot" width="205px" src="readme-assets/1.jpg">
 
 
 # Tags
